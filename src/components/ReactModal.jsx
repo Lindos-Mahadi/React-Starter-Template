@@ -10,10 +10,7 @@ const ReactModal = () =>{
     return (
         <React.Fragment>
             <Button variant="primary" onClick={handleShow}>modal show</Button>
-      <Modal show={show} onHide={handleClose}
-        size = "lg"
-        centered
-      >
+      <Modal show={show} onHide={handleClose} size = "lg" centered >
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
