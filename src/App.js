@@ -8,14 +8,14 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Service from "./components/Service";
 import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
+import NavbarMenu from "./components/Navbar";
 import Footer from "./components/Footer";
 
 
 const App = () =>{
   return(
     <React.Fragment>
-      <Navbar />
+      <NavbarMenu />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
